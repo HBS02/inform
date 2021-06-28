@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/busbutton"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                android:src="@drawable/enter" />
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/main_email"
+                    android:layout_width="800px"
+                    android:textColor="#003458"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColorHint="#003458"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Email" />
+
+
+
+                <EditText
+                    android:id="@+id/main_pwd"
+                    android:layout_width="800px"
+                    android:textColor="#003458"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#003458"
+                    android:layout_gravity="center"
+                    android:hint="Password"
+                    android:layout_marginBottom="15dp"
+                    android:inputType="textPassword" />
+
+
+            <Button
+                android:id="@+id/main_login_btn"
+                android:layout_gravity="center"
+                android:layout_width="800px"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:elevation="5dp"
+                android:textSize="18dp"
+                android:background="@drawable/busbutton"
+                android:textColor="#003458"
+                android:text="로그인" />
+
+            <Button
+                android:id="@+id/main_join_btn"
+                android:layout_width="800px"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#003458"
+                android:layout_marginTop="5dp"
+                android:elevation="5dp"
+                android:background="@drawable/busbutton"
+                android:text="회원가입" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

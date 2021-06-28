@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/bus"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/bus"
+        android:background="@drawable/busbutton"
+        android:layout_alignParentTop="true"
+        android:onClick="click1" />
+
+    <ImageButton
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/bus"
+        android:src="@drawable/food"
+        android:background="@drawable/busbutton"
+        android:onClick="click2" />
+
+    <ImageButton
+        android:id="@+id/pro"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/busbutton"
+        android:src="@drawable/pro"
+        android:layout_below="@id/my"
+        android:onClick="click6" />
+
+
+    <ImageButton
+        android:id="@+id/write"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/food"
+        android:background="@drawable/busbutton"
+        android:src="@drawable/list"
+        android:onClick="click4" />
+
+
+
+    <ImageButton
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/busbutton"
+        android:src="@drawable/map"
+        android:layout_below="@id/my"
+        android:onClick="click3" />
+
+
+
+    <ImageButton
+        android:id="@+id/my"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/write"
+        android:background="@drawable/busbutton"
+        android:src="@drawable/my"
+        android:onClick="click5"/>
+
+</LinearLayout>

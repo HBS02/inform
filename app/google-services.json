@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "942374225166",
+    "firebase_url": "https://inform-2a066.firebaseio.com",
+    "project_id": "inform-2a066",
+    "storage_bucket": "inform-2a066.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942374225166:android:c3ee5c43810c5f7ac0835f",
+        "android_client_info": {
+          "package_name": "com.example.inform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942374225166-01imr6f3liuhfm511pe7hl513mml8ipj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.inform",
+            "certificate_hash": "8f9fbf18425e470b2b6e7659ccec20126367c378"
+          }
+        },
+        {
+          "client_id": "942374225166-2o5u7fs41uu8vjaatvrcenlob5o7du0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpShaI2ABZ8Vv2Ca1BWFfjLluuskyFF6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942374225166-2o5u7fs41uu8vjaatvrcenlob5o7du0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
